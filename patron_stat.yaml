@@ -1,0 +1,56 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::PatronStatistics
+## it defines mappings from voyager.patron_stat_id -column to Koha's ExtendedPatronAttributes-feature repeatable attribute 'statistic'
+##
+## JYU stat groups
+
+# patron_stat_id,patron_stat_desc
+# 29,Muut yliopistot.Hlökunta
+# 30,Muut yliopistot.Opisk.
+# 31,Ulkom.kirjastot
+# 32,Elinkeinoelämä
+# 7,Muut asiakkaat
+# 8,Muut opiskelijat
+# 9,Avoin yo.Hlökunta
+# 10,X_YTDK.Opiskelijat
+# 11,MTDK.Opiskelijat
+# 12,X_HTDK.Opiskelijat
+# 13,LTDK.Opiskelijat
+# 14,X_HTDK.Hlökunta
+# 15,X_KTDK opiskelijat
+# 16,Avoin yo opiskelijat
+# 17,Kauppakorkea.Opiskelijat
+# 18,MTDK.Hlökunta
+# 19,ITDK.Opiskelijat
+# 20,ITDK.Hlökunta
+# 21,Kotim. kirjastot
+# 22,Erillislaitokset.Hlökunta
+# 23,Ammattikorkeakoulut
+# 24,X_KTDK.Hlökunta
+# 25,X_YTDK.Hlökunta
+# 26,LTDK.Hlökunta
+# 27,Kauppakorkea.Hlökunta
+# 28,Julk.hallinto
+# 33,HytkY.Opiskelijat
+# 34,HytkY.Hlökunta
+# 35,EduPsy.Opiskelijat
+# 36,EduPsy.Hlökunta
+
+
+#patron_stat_id,patron_stat_desc
+1:     1:HAMK opiskelija
+2:     2:Toisen asteen opiskelija
+3:     3:Oman amk:n henkilökunta
+4:     4:Ulkopuol. AMK opiskelija
+5:     5:Ulkopuol. AMK henkilökunt
+6:     6:Yo Opisk./Henkilökunta
+7:     7:Muu oppilaitos
+8:     8:Julkishallinnon edustaja
+9:     9:Elinkeinoelämän edustaja
+10:    10:Kotimainen kaukopalveluas
+11:    11:Ulkomainen kaukopalveluas
+12:    12:Muu asiakas
