@@ -23,11 +23,18 @@
 # 13,Lukivaikeudet/opiskelijat
 # 12,Testiryhmä - opiskelijat
 
-1        : B
-2        : A
-3        : BB
-4        : K
-5        : I
-6        : WD
+1        : OTHER
+2        : STUDENT
+3        : TEMP
+4        : STUDENT
+5        : STAFF
+6        : LIBRARY
+7        : STUDENT
+8        : OTHER
+9        : $DELETE
+10       : STAFF
+11       : STUDENT
+12       : $DELETE
+13       : STUDENT
 UNKNOWN  : $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
 _DEFAULT_: warning()           #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.
