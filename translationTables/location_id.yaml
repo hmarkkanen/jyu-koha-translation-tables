@@ -268,123 +268,259 @@
 #location_id,location_code,location_name
 
 # order of the values: $originalValue, $branch, $loc
-1:   branchLoc(EVO,       ARK) #Hamkoark, Evo Arkisto,
-2:   branchLoc(EVO,       KIR) #Hamkokir, Evo Kirjasto,
-3:   branchLoc(EVO,       VAR) #Hamkovar, Evo Varasto,
-4:   branchLoc(EVO,       LEH) #Hamkoleh, Evo Lehdet,
-5:   branchLoc(EVO,       OPI) #Hamkoopi, Evo Opinn�ytteet,
-6:   branchLoc(FORSSA,    ARK) #Hamkfark, Forssa Arkisto,
-7:   branchLoc(FORSSA,    KIR) #Hamkfkir, Forssa Kirjasto,
-8:   branchLoc(FORSSA,    KK)  #Hamkfref, Forssa K�sikirjasto,
-9:   branchLoc(FORSSA,    LEH) #Hamkfleh, Forssa Lehdet,
-10:  branchLoc(FORSSA,    OPI) #Hamkfopi, Forssa Opinn�ytteet,
-11:  branchLoc(FORSSA,    STA) #Hamkfstan, Forssa Standardit,
-12:  branchLoc(VISAMAKI,  KIR) #Hamkavana, Visam�ki Kirjasto,
-13:  branchLoc(EI_KOHAAN, EI_KOHAAN) #Hamkaahve,zz�L� K�YT�,
-14:  branchLoc(EI_KOHAAN, EI_KOHAAN) #Hamkaaula, zzEI K�YT�SS�,
-15:  branchLoc(VISAMAKI,  LEH) #Hamkaleh, Visam�ki Lehdet,
-16:  branchLoc(EI_KOHAAN, EI_KOHAAN) #Hamkakir, zzPOIS K�YT�ST�,
-17:  branchLoc(VISAMAKI,  KK) #Hamkaref, Visam�ki K�sikirjasto,
-18:  branchLoc(VISAMAKI,  KONVERSIO) #Hamkasal, Visam�ki Salainen,
-19:  branchLoc(EI_KOHAAN, EI_KOHAAN) #Hamkasai, Sairio K�sikirjasto,
-20:  branchLoc(VISAMAKI,  OPI) #Hamkaopi, Visam�ki Opinn�ytteet,
-21:  branchLoc(VISAMAKI,  STA) #Hamkastan, Visam�ki Standardit,
-22:  branchLoc(VISAMAKI,  VAR) #Hamkavar, Visam�ki Varasto,
-23:  branchLoc(LEPAA,     KIR) #Hamklkir, Lepaa Kirjasto,
-24:  branchLoc(LEPAA,     KK) #Hamklref, Lepaa K�sikirjasto,
-25:  branchLoc(LEPAA,     LEH) #Hamklleh, Lepaa Lehdet,
-26:  branchLoc(LEPAA,     OPI) #Hamklopi, Lepaa Opinn�ytteet,
-27:  branchLoc(LEPAA,     VAR) #Hamklvar, Lepaa Varasto,
-28:  branchLoc(LEPAA,     STA) #Hamklstan, Lepaa Standardit,
-29:  branchLoc(LEPAA,     MUS, Hertta Linkola) #Hamklmhl, LepaaMuseo Hertta Linkola,
-30:  branchLoc(LEPAA,     MUS) #Hamklmmus, LepaaMuseo Museokokoelma,
-31:  branchLoc(MUSTIALA,  ARK) #Hamkmark, Mustiala Arkisto,
-32:  branchLoc(MUSTIALA,  KIR) #Hamkmkir, Mustiala Kirjasto,
-33:  branchLoc(MUSTIALA,  VAR) #Hamkmvar, Mustiala Varasto,
-34:  branchLoc(MUSTIALA,  KK) #Hamkmref, Mustiala K�sikirjasto,
-35:  branchLoc(MUSTIALA,  LEH) #Hamkmleh, Mustiala Lehdet,
-36:  branchLoc(MUSTIALA,  OPI) #Hamkmopi, Mustiala Opinn�ytteet,
-37:  branchLoc(RIIHIMAKI, KK) #Hamkrref, Riihim�ki K�sikirjasto,
-38:  branchLoc(RIIHIMAKI, KIR) #Hamkrkir, Riihim�ki Kirjasto,
-39:  branchLoc(RIIHIMAKI, VAR) #Hamkrvar, Riihim�ki Varasto,
-40:  branchLoc(RIIHIMAKI, ARK) #Hamkrark, Riihim�ki Arkisto,
-41:  branchLoc(RIIHIMAKI, LEH) #Hamkrleh, Riihim�ki Lehdet,
-42:  branchLoc(RIIHIMAKI, OPI) #Hamkropi, Riihim�ki Opinn�ytteet,
-43:  branchLoc(RIIHIMAKI, STA) #Hamkrstan, Riihim�ki Standardit,
-44:  branchLoc(RIIHIMAKI, ITSE) #Hamkritse, XXRiihim�ki Itseopiskelu,
-45:  branchLoc(VALKEAKOSK, KIR) #Hamkvkir, Valkeakoski Kirjasto,
-46:  branchLoc(VALKEAKOSK, KK) #Hamkvref, Valkeakoski K�sikirjasto,
-47:  branchLoc(VALKEAKOSK, LEH) #Hamkvleh, Valkeakoski Lehdet,
-48:  branchLoc(VALKEAKOSK, OPI) #Hamkvopi, Valkeakoski Opinn�ytteet,
-49:  branchLoc(VALKEAKOSK, STA) #Hamkvstan, Valkeakoski Standardit,
-50:  branchLoc(VALKEAKOSK, ARK) #Hamkvark, Valkeakoski Arkisto,
-51:  branchLoc(WETTERHOFF, KIR) #Hamkwkir, zzWetterhoff Kirjasto,
-52:  branchLoc(WETTERHOFF, KK) #Hamkwref, zzWetterhoff K�sikirjasto,
-53:  branchLoc(WETTERHOFF, KONVERSIO) #Hamkwdia, xxWetterhoff Diat,
-54:  branchLoc(WETTERHOFF, LEH) #Hamkwleh, zzWetterhoff Lehdet,
-55:  branchLoc(WETTERHOFF, OPI) #Hamkwopi, zzWetterhoff Opinn�ytteet,
-56:  branchLoc(WETTERHOFF, ARK) #Hamkwark, zzWetterhoff Arkisto,
-57:  branchLoc(WETTERHOFF, STA) #Hamkwstan, zzWetterhoff Standardit,
-58:  branchLoc(EVO,        LAINA) #HAMKOLAINA, EVO LAINAUS,
-59:  branchLoc(FORSSA,     LAINA) #HAMKFLAINA, FORSSA LAINAUS,
-60:  branchLoc(VISAMAKI,   LAINA) #HAMKALAINA, VISAM�KI LAINAUS,
-61:  branchLoc(LEPAA,      LAINA) #HAMKLLAINA, LEPAA LAINAUS,
-62:  branchLoc(MUSTIALA,   LAINA) #HAMKMLAINA, MUSTIALA LAINAUS,
-63:  branchLoc(RIIHIMAKI,  LAINA) #HAMKRLAINA, RIIHIM�KI LAINAUS,
-64:  branchLoc(VALKEAKOSK, LAINA) #HAMKVLAINA, VALKEAKOSKI LAINAUS,
-65:  branchLoc(WETTERHOFF, LAINA) #HAMKWLAINA, WETTERHOFF LAINAUS,
-66:  branchLoc(HAMK,       KONVERSIO) #HAMKSELF, ITSEPALVELULAINAUS,
-67:  branchLoc(HAMK,       KONVERSIO) #HAMKALUETT, HAMK LUETTELOINTI,
-68:  branchLoc(HAMK,       KONVERSIO) #TOIMLUETT, TOIMIPISTE LUETTELOINTI,
-69:  branchLoc(HAMK,       KONVERSIO) #HAMKHANKI, HAMK HANKINTA,
-70:  branchLoc(HAMK,       KONVERSIO) #HAMKOPAC, OPAC,
-71:  branchLoc(HAMK,       POIS) #Hamkopois, Evo Poistot,
-72:  branchLoc(FORSSA,     POIS) #Hamkfpois, Forssa Poistot,
-73:  branchLoc(HAMK,       EI_KOHAAN) #Hamkapois, zzEI K�YTET�,
-74:  branchLoc(LEPAA,      POIS) #Hamklpois, Lepaa Poistot,
-75:  branchLoc(MUSTIALA,   POIS) #Hamkmpois, Mustiala Poistot,
-76:  branchLoc(RIIHIMAKI,  POIS) #Hamkrpois, Riihim�ki Poistot,
-77:  branchLoc(VALKEAKOSK, POIS) #Hamkvpois, Valkeakoski Poistot,
-78:  branchLoc(WETTERHOFF, POIS) #Hamkwpois, Wetterhoff Poistot,
-79:  branchLoc(HAMK,       KONVERSIO) #Hamkaraksa, Lahdensivu selvitett�vi�,
-80:  branchLoc(EVO,        ITSE) #HAMKOSELF, EVO IP_LAINAUS,
-81:  branchLoc(FORSSA,     ITSE) #HAMKFSELF, FORSSA IP_LAINAUS,
-82:  branchLoc(LEPAA,      ITSE) #HAMKLSELF, LEPAA IP_LAINAUS,
-83:  branchLoc(MUSTIALA,   ITSE) #HAMKMSELF, MUSTIALA IP_LAINAUS,
-84:  branchLoc(RIIHIMAKI,  ITSE) #HAMKRSELF, RIIHIM�KI IP_LAINAUS,
-85:  branchLoc(VALKEAKOSK, ITSE) #HAMKVSELF, VALKEAKOSKI IP_LAINAUS,
-86:  branchLoc(WETTERHOFF, ITSE) #HAMKWSELF, WETTERHOFF IP_LAINAUS,
-87:  branchLoc(EVO,        KK) #Hamkoref, Evo K�sikirjasto,
-88:  branchLoc(HAMK,       KONVERSIO) #Hamkvl, Virkak�ytt� - lainat,
-89:  branchLoc(HAMK,       KONVERSIO) #Hamkvs, Virkak�ytt� -sijainnit,
-90:  branchLoc(HAMK,       KONVERSIO) #Hamkwww, HAMK Verkkoaineisto,
-91:  branchLoc(LEPAA,      ARK) #Hamklark, LepaaArkisto,
-92:  branchLoc(VALKEAKOSK, KUR) #Hamkvkurs, Valkeakoski kurssikirjat,
-93:  branchLoc(MUSTIALA,   KUR) #Hamkmkurs, Mustiala kurssiaineisto,
-94:  branchLoc(LEPAA,      KUR) #Hamklkurs, Lepaa kurssikirjat,
-95:  branchLoc(MUSTIALA,   STA) #Hamkmstan, Mustiala Standardit,
-96:  branchLoc(HAMK,       KONVERSIO) #Hamkjulrek, HAMKin julkaisurekisteri,
-97:  branchLoc(LAHDENSIVU, KIR) #Hamkbkir, XXLahdensivu Kirjasto,
-99:  branchLoc(LAHDENSIVU, LEH) #Hamkbleh, XXLahdensivu Lehdet,
-100: branchLoc(LAHDENSIVU, OPI) #Hamkbopi, Lahdensivu Opinn�ytteet,
-101: branchLoc(HAMK,       LAINA) #HAMKBLAINA, XXAINOLA-SOTE,
-102: branchLoc(LAHDENSIVU, ITSE) #HAMKBSELF, LAHDENSIVU IP_LAINAUS,
-103: branchLoc(VISAMAKI,   KUR) #Hamkakurs, Visam�ki kurssikirjat,
-104: branchLoc(LAHDENSIVU, KUR) #Hamkbkurs, XXLahdensivu kurssiain,
-105: branchLoc(RIIHIMAKI,  KUR) #Hamkrkurs, Riihim�ki kurssikirjat,
-106: branchLoc(VISAMAKI,   LEH) #Hamkalex, Visam�ki Sanomalehdet,
-107: branchLoc(LAHDENSIVU, LEH) #Hamkblex, Lahdensivu Sanomalehdet,
-108: branchLoc(FORSSA,     LEH) #Hamkflex, Forssa Sanomalehdet,
-109: branchLoc(LEPAA,      LEH) #Hamkllex, Lepaa Sanomalehdet,
-110: branchLoc(MUSTIALA,   LEH) #Hamkmlex, Mustiala Sanomalehdet,
-111: branchLoc(EVO,        LEH) #Hamkolex, Evo Sanomalehdet,
-112: branchLoc(RIIHIMAKI,  LEH) #Hamkrlex, Riihim�ki Sanomalehdet,
-113: branchLoc(VALKEAKOSK, LEH) #Hamkvlex, Valkeakoski Sanomalehdet,
-114: branchLoc(MUSTIALA,   MUS) #Hamkmmus, Mustiala Museokokoelma,
-115: branchLoc(VALKEAKOSK, VAR) #Hamkvvar, Valkeakoski Varasto,
-116: branchLoc(EVO,        KONVERSIO) #Hamkoesi, Evo Esineet,
-117: branchLoc(HAMK,       OPI) #Hamksark, HAMK Opinn�ytety�arkisto,
-118: branchLoc(HAMK,       KONVERSIO) #Hamkwwwn, Tietokannat Vanaicatissa,
-119: branchLoc(EVO,        MUS) #Hamkomus, Evo Museo,
-120: branchLoc(HAMK,       KONVERSIO) #MAKSU, Verkkomaksaminen,
+2:   branchLoc(MAIN, 100) # Pääkirjasto
+3:   branchLoc(MAIN, 101) # P Yleiskok Laina 3. krs
+4:   branchLoc(MAIN, 102) # P Yleiskok LsKirja 3. krs
+5:   branchLoc(MAIN, 103) # P Bibliografiat. 3. krs
+6:   branchLoc(MAIN, 104) # P Lehdet 3. krs
+7:   branchLoc(MAIN, 105) # Ei käytössä 44
+8:   branchLoc(MAIN, 106) # P Yleiskok Laina 2. krs
+9:   branchLoc(MAIN, 107) # P Yleiskok LsKirja 2. krs
+10:   branchLoc(MAIN, 108) # P Bibliografiat 2. krs
+11:   branchLoc(MAIN, 109) # P Lehdet 2. krs
+12:   branchLoc(MAIN, 110) # P Mikromuoto 3. krs
+13:   branchLoc(MAIN, 111) # P Lainattava kurssikirja
+14:   branchLoc(MAIN, 112) # P Mikrofilmilehdet
+15:   branchLoc(MAIN, 113) # P Kaunok. 2. krs
+16:   branchLoc(MAIN, 114) # P Vapaakappale Xa tabloid
+17:   branchLoc(MAIN, 115) # P Lyhytlainakurssikirjat
+222:   branchLoc(MAIN, 116) # P KäsikKurssik
+18:   branchLoc(MAIN, 117) # P Yleiskok Varastokirjat
+20:   branchLoc(MAIN, 118) # P Kaunok Varastokirjat
+21:   branchLoc(MAIN, 119) # P Yleiskok Varastolehdet
+22:   branchLoc(MAIN, 120) # P Pihkalan kokoelma
+146:   branchLoc(MAIN, 121) # 0121Testi
+24:   branchLoc(MAIN, 121) # P Vapaakappalekokoelma
+25:   branchLoc(MAIN, 122) # P Fennica piennumerus
+26:   branchLoc(MAIN, 123) # P Kaukolainat
+27:   branchLoc(MAIN, 124) # P EU-kokoelma. 3. krs
+28:   branchLoc(MAIN, 125) # P EU-kokoelma. Varasto
+29:   branchLoc(MAIN, 126) # P LsEU-kokoelma. 3. krs
+30:   branchLoc(MAIN, 127) # P Multimedia. 1. krs
+19:   branchLoc(MAIN, 128) # P Yleiskok. Käsik. var
+23:   branchLoc(MAIN, 129) # P Mikromuoto var
+31:   branchLoc(MAIN, 130) # P LsMultimedia 1. krs
+32:   branchLoc(MAIN, 190) # Internet-yhteys
+33:   branchLoc(MAIN, 191) # Ebook Central
+218:   branchLoc(MAIN, 192) # Ellibs
+266:   branchLoc(MAIN, 193) # JY:n digitoidut aineistot
+34:   branchLoc(MAIN, 300) # Tietokannat
+35:   branchLoc(MAIN, 301) # P Sanomalehdet Kanavuori
+37:   branchLoc(MAIN, 302) # Ei käytössä 37
+200:   branchLoc(MAIN, 303) # P Lehdet Tupa
+36:   branchLoc(MAIN, 350) # P Tilatut kotim sanomaleh
+38:   branchLoc(MAIN, 351) # VARH lehdet
+39:   branchLoc(MAIN, 401) # Ei käytössä 17
+40:   branchLoc(MAIN, 402) # Ei käytössä 18
+41:   branchLoc(MAIN, 403) # Ei käytössä 19
+172:   branchLoc(MAIN, 404) # Ei käytössä 20
+42:   branchLoc(MAIN, 405) # Frankofonia. Kanavuori
+173:   branchLoc(MAIN, 406) # SOLKI Lehdet
+171:   branchLoc(MAIN, 407) # OKL
+233:   branchLoc(MAIN, 450) # Ruotsin kieli Lehdet
+43:   branchLoc(MAIN, 500) # Ei käytössä 3
+44:   branchLoc(MAIN, 501) # Ei käytössä 4
+244:   branchLoc(MAIN, 504) # Liikunnan gradut 2010-
+45:   branchLoc(MAIN, 550) # Liikuntabiologia Lehdet
+46:   branchLoc(MAIN, 551) # LLS LB Lehdet
+47:   branchLoc(MAIN, 552) # LLS LK Lehdet
+48:   branchLoc(MAIN, 553) # LLS LS Lehdet
+49:   branchLoc(MAIN, 554) # LLS TT Lehdet
+50:   branchLoc(MAIN, 600) # MK LsKirja
+51:   branchLoc(MAIN, 601) # MK Lainattavat
+57:   branchLoc(MAIN, 605) # MK MAT
+60:   branchLoc(MAIN, 606) # MK TIE
+63:   branchLoc(MAIN, 607) # MK TIL
+65:   branchLoc(MAIN, 608) # MAT G
+66:   branchLoc(MAIN, 609) # Kanavuoren gradut
+67:   branchLoc(MAIN, 610) # Ei käytössä 66
+68:   branchLoc(MAIN, 611) # Ei käytössä 67
+69:   branchLoc(MAIN, 612) # Ei käytössä 68
+70:   branchLoc(MAIN, 613) # Ei käytössä 69
+194:   branchLoc(MAIN, 614) # Tietotekn. gradut
+71:   branchLoc(MAIN, 615) # MK TIE Gradu
+59:   branchLoc(MAIN, 616) # MK TIE Ls
+62:   branchLoc(MAIN, 617) # MK TIL Ls
+177:   branchLoc(MAIN, 618) # Ei käytössä 41
+178:   branchLoc(MAIN, 619) # TIE Multimedia
+197:   branchLoc(MAIN, 620) # Ei käytössä 45
+229:   branchLoc(MAIN, 621) # MK Kansalaisyhteiskunta
+234:   branchLoc(MAIN, 640) # YFI Lehdet laitoksella
+52:   branchLoc(MAIN, 650) # MK Yhteiset lehdet
+53:   branchLoc(MAIN, 651) # MK FIL Lehdet
+54:   branchLoc(MAIN, 652) # MK SOS Lehdet
+55:   branchLoc(MAIN, 653) # MK VAL Lehdet
+56:   branchLoc(MAIN, 654) # MK YFI Lehdet
+58:   branchLoc(MAIN, 655) # MK MAT Lehdet
+61:   branchLoc(MAIN, 656) # MK TIE Lehdet
+64:   branchLoc(MAIN, 657) # MK TIL Lehdet
+72:   branchLoc(MAIN, 658) # ATK-keskus Lehdet
+73:   branchLoc(MAIN, 659) # MK TIT Lehdet
+205:   branchLoc(MAIN, 660) # Agora Center
+74:   branchLoc(MAIN, 700) # AVO Lehdet
+79:   branchLoc(MAIN, 701) # Psyk gradut 2014-
+80:   branchLoc(MAIN, 702) # Ei käytössä 8
+76:   branchLoc(MAIN, 711) # Ei käytössä 9
+77:   branchLoc(MAIN, 712) # Ei käytössä 10
+221:   branchLoc(MAIN, 720) # Ei käytössä 12
+82:   branchLoc(MAIN, 721) # Ei käytössä 13
+83:   branchLoc(MAIN, 722) # Ei käytössä 14
+75:   branchLoc(MAIN, 750) # TOU Yhteiset lehdet
+78:   branchLoc(MAIN, 752) # TOU TÄY Lehdet
+81:   branchLoc(MAIN, 753) # TOU VIE Lehdet
+84:   branchLoc(MAIN, 754) # TOU AVO Lehdet
+85:   branchLoc(MAIN, 800) # YK LsKirja
+87:   branchLoc(MAIN, 810) # YK KEM LsKirja
+88:   branchLoc(MAIN, 811) # YK KEM Lainattavat
+89:   branchLoc(MAIN, 812) # YK Gradut
+91:   branchLoc(MAIN, 820) # YK FYS LsKirja
+92:   branchLoc(MAIN, 821) # YK FYS Lainattavat
+93:   branchLoc(MAIN, 822) # Ei käytössä 42
+241:   branchLoc(MAIN, 830) # YK Uusiutuva energia
+86:   branchLoc(MAIN, 850) # YK Yhteiset lehdet
+90:   branchLoc(MAIN, 851) # YK KEM Lehdet
+94:   branchLoc(MAIN, 852) # YK FYS Lehdet
+95:   branchLoc(MAIN, 900) # Ambiotica BIO LsKirja
+96:   branchLoc(MAIN, 901) # YK BIO Lainattavat
+213:   branchLoc(MAIN, 902) # Ambiotica BIO Lainattavat
+214:   branchLoc(MAIN, 903) # YK BIO LsKirja
+97:   branchLoc(MAIN, 951) # BIO Ekol. lehdet
+98:   branchLoc(MAIN, 952) # BIO Bio-ja ymp. lehdet
+99:   branchLoc(MAIN, 953) # BIO SB lehdet
+100:   branchLoc(MAIN, 954) # BIO Ymp.tiet.lehdet
+232:   branchLoc(MAIN, 955) # Nanoscience Lehdet
+191:   branchLoc(MAIN, 1000) # Ei käytössä 32
+195:   branchLoc(MAIN, 1001) # Loppuunmyyty
+212:   branchLoc(MAIN, 1002) # P Separatus
+207:   branchLoc(MAIN, 1003) # P Separatus LYH
+209:   branchLoc(MAIN, 1004) # Projektihylly
+187:   branchLoc(MAIN, 1010) # Er.ped. gradut
+216:   branchLoc(MAIN, 1020) # P Varhaiskirjallisuus
+101:   branchLoc(MAIN, 1050) # Erit.pedagogiikka. Lehdet
+238:   branchLoc(MAIN, 1090) # P Ulk varastosanomalehdet
+102:   branchLoc(MAIN, 1100) # KTL Kirjat
+260:   branchLoc(MAIN, 1110) # e-kurssik
+103:   branchLoc(MAIN, 1200) # P Fennica kuunnelmat
+104:   branchLoc(MAIN, 1201) # P Fredriksonin kartat
+211:   branchLoc(MAIN, 1210) # P Fennica numerus 2010-
+215:   branchLoc(MAIN, 1211) # P Varhaisfennica Arkholvi
+251:   branchLoc(MAIN, 1212) # P Arkkiveisut
+261:   branchLoc(MAIN, 1213) # P Arkistoholvi 
+262:   branchLoc(MAIN, 1214) # P Komiteanmietinnöt 
+263:   branchLoc(MAIN, 1215) # P Fennica Mikrokortit
+265:   branchLoc(MAIN, 1216) # P Aikakauslehdet Kanavuor
+267:   branchLoc(MAIN, 1217) # Ei käytössä 33
+268:   branchLoc(MAIN, 1218) # Ei käytössä 34
+259:   branchLoc(MAIN, 1219) # Digitoidut aineistot
+269:   branchLoc(MAIN, 1220) # P Fennica lehdet 2017-
+237:   branchLoc(MAIN, 1230) # P Kaukol mikrokorttigradu
+105:   branchLoc(MAIN, 1250) # Etnologia. Lehdet
+196:   branchLoc(MAIN, 1300) # Rehtori-instituutti Gradu
+106:   branchLoc(MAIN, 1400) # Ei käytössä 24
+253:   branchLoc(MAIN, 1401) # TAIH Gradu
+108:   branchLoc(MAIN, 1404) # Historia. Fredrikson
+107:   branchLoc(MAIN, 1450) # Historia. Lehdet
+109:   branchLoc(MAIN, 1500) # Kasvatustiet. lts Kirjat
+110:   branchLoc(MAIN, 1550) # Kasvatustiet.lts Lehdet
+111:   branchLoc(MAIN, 1600) # Ei käytössä 25
+168:   branchLoc(MAIN, 1601) # KTL LsKirjat
+112:   branchLoc(MAIN, 1650) # KTL Lehdet
+113:   branchLoc(MAIN, 1800) # Ei käytössä 38
+115:   branchLoc(MAIN, 1810) # Nykykultt. Kirjat
+199:   branchLoc(MAIN, 1820) # Hungarologia Gradut
+236:   branchLoc(MAIN, 1830) # Kirjallisuus. Gradut
+114:   branchLoc(MAIN, 1850) # Kirjallisuus.Lehdet
+116:   branchLoc(MAIN, 1851) # Nykykultt. Lehdet
+117:   branchLoc(MAIN, 1900) # Konnevesi. Kirjat
+118:   branchLoc(MAIN, 1950) # Konnevesi. Lehdet
+119:   branchLoc(MAIN, 2100) # VESILINNA. Kirjat
+120:   branchLoc(MAIN, 2150) # VESILINNA. Lehdet
+121:   branchLoc(MAIN, 2200) # Musiikin lts. LsKirja
+122:   branchLoc(MAIN, 2201) # Musiikin lts. Laina
+201:   branchLoc(MAIN, 2202) # Musiikin lts. LsMusa
+202:   branchLoc(MAIN, 2203) # Musiikin lts. LsNuotit
+203:   branchLoc(MAIN, 2204) # Musiikin lts. Nuotit
+225:   branchLoc(MAIN, 2205) # Musiikin lts. LsPartituur
+226:   branchLoc(MAIN, 2206) # Musiikin lts. LainaPartit
+227:   branchLoc(MAIN, 2207) # Musiikin lts. Orkesteri
+228:   branchLoc(MAIN, 2208) # Musiikin lts. LsOppikirja
+123:   branchLoc(MAIN, 2250) # Musiikin lts. Lehdet
+124:   branchLoc(MAIN, 2300) # Kielikeskus Lehdet
+125:   branchLoc(MAIN, 2350) # Psykologian lts. Lehdet
+126:   branchLoc(MAIN, 2400) # Ei käytössä 26
+206:   branchLoc(MAIN, 2401) # Suomen kieli. Virk
+127:   branchLoc(MAIN, 2450) # Suomen kieli. Lehdet
+128:   branchLoc(MAIN, 2500) # Taidehist/Taidek. Kirjat
+130:   branchLoc(MAIN, 2501) # Museologia. Kirjat
+208:   branchLoc(MAIN, 2502) # Digitaalinen kulttuuri
+129:   branchLoc(MAIN, 2550) # Taidehistoria. Lehdet
+131:   branchLoc(MAIN, 2551) # Museologia. Lehdet
+132:   branchLoc(MAIN, 2600) # Ei käytössä 39
+210:   branchLoc(MAIN, 2601) # Taidekasvatus. Gradut
+133:   branchLoc(MAIN, 2650) # Taidekasvatus. Lehdet
+134:   branchLoc(MAIN, 2700) # Ei käytössä 40
+135:   branchLoc(MAIN, 2750) # Taloustiet. tdk. Lehdet
+136:   branchLoc(MAIN, 2800) # Ei käytössä 28
+190:   branchLoc(MAIN, 2810) # Venäjän kieli
+137:   branchLoc(MAIN, 2900) # Yliopiston kielik. Kirjat
+138:   branchLoc(MAIN, 3000) # Ei käytössä 30
+139:   branchLoc(MAIN, 3050) # Ei käytössä 1
+176:   branchLoc(MAIN, 3500) # Kuvakoulutus. Kirjat
+180:   branchLoc(MAIN, 4011) # Ei käytössä 31
+181:   branchLoc(MAIN, 4021) # Saksan kieli
+182:   branchLoc(MAIN, 4031) # Ruotsin kieli
+183:   branchLoc(MAIN, 4041) # Rom. ja klass. kielet
+186:   branchLoc(MAIN, 4061) # Sov.kielentutk. gradut
+239:   branchLoc(MAIN, 5000) # P Esinelainat
+264:   branchLoc(MAIN, 5001) # P Tabletit
+140:   branchLoc(MAIN, 5200) # P Kurssikirja
+141:   branchLoc(MAIN, 5556) # Testikokoelma1
+142:   branchLoc(MAIN, 5557) # Testikokoelma2
+193:   branchLoc(MAIN, 5558) # Testikokoelma3
+143:   branchLoc(MAIN, 6000) # Chydenius-Inst. LsKirja
+144:   branchLoc(MAIN, 6001) # Chydenius-Inst. Laina
+198:   branchLoc(MAIN, 6002) # Chydenius-Inst. Kurssik
+220:   branchLoc(MAIN, 6003) # Chydenius-Inst. Tritonia
+223:   branchLoc(MAIN, 6050) # Chydenius-Inst. Lehdet
+145:   branchLoc(MAIN, 7000) # Kultt.hist. museo. Kirjat
+219:   branchLoc(MAIN, 8000) # Poistettu kokoelmista
+270:   branchLoc(MAIN, 9995) # Gradulokerohuone 302
+255:   branchLoc(MAIN, 9996) # Säilytyspaikkahuone 204
+256:   branchLoc(MAIN, 9997) # Säilytyspaikkahuone 202
+257:   branchLoc(MAIN, 9998) # Säilytyspaikkahuone 303
+254:   branchLoc(MAIN, 9999) # Säilytyspaikkahuone 302
+147:   branchLoc(MAIN, 0121b) # 0121bTesti
+152:   branchLoc(MAIN, Blain) # Biologia. Lainaus
+155:   branchLoc(MAIN, Clain) # Chydenius.Lainaus.Kokkola
+188:   branchLoc(MAIN, EI_LINDA) # zEI_LINDA
+150:   branchLoc(MAIN, JYKluettel) # JYKluettelointi
+159:   branchLoc(MAIN, JYKoletus) # JYK (muut kokoelmat)
+162:   branchLoc(MAIN, Kausihank) # Kausijhank(ei käyt)
+166:   branchLoc(MAIN, ksto_kausi) # *Kirjasto/Kausijulkaisut
+156:   branchLoc(MAIN, KTLlain) # KTL. Lainaus
+164:   branchLoc(MAIN, Kurssihank) # Kurssikirjahankinta
+165:   branchLoc(MAIN, Laitkausij) # *Laitosten kausijulkaisut
+189:   branchLoc(MAIN, Laitoshank) # Laitoshankinnat
+169:   branchLoc(MAIN, Lhank) # *Liikunnan kirjasto
+235:   branchLoc(MAIN, LIIKKA) # XLiikunta. Lainaus Itsep.
+153:   branchLoc(MAIN, Llaina) # Liikunta. Lainaus
+240:   branchLoc(MAIN, MATTILA) # XMattilanniemi. Itsepalv
+170:   branchLoc(MAIN, Mhank) # *Mattilanniemen kirjasto
+154:   branchLoc(MAIN, Mlain) # Mattilanniemi. Lainaus
+231:   branchLoc(MAIN, MUSA) # Musiikin lts. Itsepalvelu
+230:   branchLoc(MAIN, MUSlain) # Musiikin laitos. Lainaus
+163:   branchLoc(MAIN, Palvhank) # Palvelukirjastohankinta
+149:   branchLoc(MAIN, Phankinta) # Kausijulkaisuhankinnat
+167:   branchLoc(MAIN, PKhankinta) # PKhankintatoimisto
+151:   branchLoc(MAIN, Plainaus) # .Pääkirjasto. Lainaus
+1:   branchLoc(MAIN, REVIEW) # REVIEW
+160:   branchLoc(MAIN, SELF) # Pääkirjasto. Itsepalvelu
+175:   branchLoc(MAIN, Thank) # *Tourulan kirjasto
+157:   branchLoc(MAIN, TOUlain) # Tourula. Lainaus
+242:   branchLoc(MAIN, TOURU) # XTourula. Lainaus Itsep.
+174:   branchLoc(MAIN, Yhank) # *Ylistönrinteen kirjasto
+158:   branchLoc(MAIN, Ylain) # Ylistönrinteen. Lainaus
+252:   branchLoc(MAIN, YLISTO) # XYlistö. Lainaus Itsep.
+192:   branchLoc(MAIN, Ztestilain) # Ztestilain
+	
 _DEFAULT_: branchLoc(HAMK, KONVERSIO, ERROR, ERROR) #By default, print a warning and use defaults )
