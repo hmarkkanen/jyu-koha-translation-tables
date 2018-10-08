@@ -44,7 +44,7 @@
 #patron_stat_id,patron_stat_desc
 29:    I:Muiden yliopistojen henkilökunta
 30:    J:Muiden yliopistojen opiskelijat
-31:    X:Ulkomaiset kirjastot
+31:    O:Ulkomaiset kirjastot
 32:    R:Elinkeinoelämä
 7:     U:Muut asiakkaat
 8:     J:Muiden yliopistojen opiskelijat

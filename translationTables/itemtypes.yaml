@@ -9,11 +9,29 @@
 
 #voyager.ITEM_TYPE
 #ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
-1: ARKISTO        # "ARKISTO0",      "ARKISTO0",     "ARKISTO0"
-2: LAINA28        # "LAINA28",       "LAINA28",      "LAINA28"
-3: LAINA0         # "LAINA0",        "LAINA0",       "LAINA0"
-4: LAINAV         # "LAINAV",        "VIRKALAINA",   "VIRKALAINA"
-5: LAINA14        # "LAINA14",       "LAINA14",      "LAINA14"
+13: LAINA0
+87: GRADUL
+57: VARASTO28L 
+23: LAINA28 
+82: LAINA14 
+22: LAINA0 
+8: VARASTO180 
+7: VARASTO28 
+4: LAINA14 
+84: LAINA1 
+3: LAINA0 
+6: VARASTO28L 
+10: TABLETIT14 
+2: LAINA28 
+5: VARASTO28 
+86: SP 
+33: LAINA28 
+32: LAINA0 
+54: LAINA0
+65: LAINA0 
+48: LAINA0
+36: LAINA0
+37: LAINA28
 
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
