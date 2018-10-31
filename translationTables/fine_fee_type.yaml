@@ -39,7 +39,7 @@
 
 1:  O # Overdue
 3:  L # Lost item processing
-8:  F # Accured fine
+8:  FU # Accured fine
 16: F # Kaukopalvelun lainauskielto
 17: F # Poistettu nide
 19: F # Lasun käsittelymaksu
