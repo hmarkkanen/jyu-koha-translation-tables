@@ -32,6 +32,47 @@
 48: LAINA0
 36: LAINA0
 37: LAINA28
+77: VARASTO180
+19: KONVERSIO # frankofonia suppressoidut
+20: LAINA0 # liikunnan oppimiskeskus gradu
+24: LAINA0 # matematiikan käsikirjasto gradu
+35: LAINA28 # ylistönrinne 28vrk opinnäyte
+42: LAINA0 # kartta
+44: LAINA28 # tkl laina-aika 28vrk
+45: LAINA0 # hisoria kanavuori ei käytössä
+49: LAINA0 # musica ei kotilainattava
+50: LAINA28 # musica laina-aika 28vrk
+53: LAINA0 # taidehistorian gradu toistaiseksi ei käytössä
+58: LAINA0 # oppio ei kotilainattava
+63: LAINA0 # kokkola ei kotilainattava
+64: LAINA14 # kokkola 14 vrk lainattava
+66: LAINA0 # ruusupuisto ktl ei kotilainattava
+73: LAINA0 # rehtori-instituutin opinnäytteet
+75: LAINA14 # kokkola kurssikirja 14 vrk
+76: LAINA0 # hungarologia odottaa siirtokäsittelyä
+77: LAINA0 # tietotekniikan gradut laitoksella
+
+
+
+3702 item_type_id=19 bib ei löydy finnasta
+ 185 item_type_id=20 Liikunnan oppimiskeskus gradu
+1084 item_type_id=24 Matematiikan käsikirjasto gradu
+4148 item_type_id=35 Ylistönlinneet lainattava opinnäyte
+1722 item_type_id=42 Kartta (ilman nidetietoja)
+  74 item_type_id=44 KTL tutkimuslaitos laina-aika 29 VRK
+  16 item_type_id=45 historia Kanavuori etävarasto toistaiseksi ei käytössä
+5737 item_type_id=49 Musica ei kotilainattavat
+ 305 item_type_id=50 Musica laina-aika 28vrk
+   4 item_type_id=53 taidehistoria gradu kanavuori etävarasto toistaiseksi ei käytössä
+5530 item_type_id=58 oppio ei kotilainattava kirja
+1318 item_type_id=63 kokkola ei kotilainattava
+8156 item_type_id=64 kokkola 14 vrk lainattava
+  24 item_type_id=66 ruusupuisto ktl ei kotilainattava
+   9 item_type_id=73 rehtori-instituutin opinnäytteet
+2386 item_type_id=75 kokkola kurssikirja 14vrk lainattava
+   4 item_type_id=76 hungarologia odottaa siirtokäsittelyä
+ 498 item_type_id=77 ei kotilainattavat tietotekniikan gradut laitoksella
+
 
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
