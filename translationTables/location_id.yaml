@@ -284,6 +284,8 @@
 #branchLoc sets the following attributes:
 #       branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
+
+
 2: branchLoc(main, 100) #Pääkirjasto
 3: branchLoc(main, 101) #P Yleiskok Laina 3. krs
 4: branchLoc(main, 102) #P Yleiskok LsKirja 3. krs
@@ -336,5 +338,26 @@
 266: branchLoc(main, 193) #JY:n digitoidut aineistot
 269: branchLoc(main, 1220) #P Fennica lehdet 2017-
 270: branchLoc(main, 9995) #Gradulokerohuone 302
+27: branchLoc(main, 124) # EU-kokoelma
+65: branchLoc(EI_KOHAAN, EI_KOHAAN) # 608 MAT G
+29: branchLoc(EI_KOHAAN, EI_KOHAAN) # 126 P LS-EU-kokoelma
+28: branchLoc(EI_KOHAAN, EI_KOHAAN) # 125 EU-kokoelma. Varasto
+267: branchLoc(EI_KOHAAN, EI_KOHAAN) # 1217 Ei käytössä
+102: branchLoc(EI_KOHAAN, EI_KOHAAN) # 1100 KTL Kirjat
+168: branchLoc(EI_KOHAAN, EI_KOHAAN) # KTL LsKirjat
+26: branchLoc(EI_KOHAAN, EI_KOHAAN) # P Kaukolainat
+144: branchLoc(chydenius, 6001) # Chydenius-Inst. Laina
+143: branchLoc(chydenius, 6000) # Chydenius-Inst LsKirja
+198: branchLoc(chydenius, 6002) # Chydenius-Inst. Kurssik
+137: branchLoc(main, 2900) # Yliopiston kielikeskus, kirjat
+121: branchLoc(main, 2200) # Musiikin lts. LsKirja
+201: branchLoc(main, 2202) # Musiikin lts. LsMusiikki
+225: branchLoc(main, 2205) # Musiikin lts. LsPartituuri
+122: branchLoc(main, 2201) # Musiikin lts. Lainattava
+202: branchLoc(main, 2203) # Musiikin lts. LsNuotit
+226: branchLoc(main, 2206) # Musiikin lts. LainaPartituurit
+228: branchLoc(main, 2208) # Musiikin lts. LsOppikirja
+203: branchLoc(main, 2204) # Musiikin lts. Nuotit
+
 	
 _DEFAULT_: branchLoc(main, KONVERSIO, ERROR, ERROR) #By default, print a warning and use defaults )
