@@ -358,6 +358,39 @@
 226: branchLoc(main, 2206) # Musiikin lts. LainaPartituurit
 228: branchLoc(main, 2208) # Musiikin lts. LsOppikirja
 203: branchLoc(main, 2204) # Musiikin lts. Nuotit
+51: branchLoc(main, 601) # 601 MK Lainattavat
+57: branchLoc(main, 601) # 605 MK MAT
+60: branchLoc(main, 601) # 606 MK TIE
+63: branchLoc(main, 601) # 607 MK TIL
+229: branchLoc(main, 601) # 621 MK Kansalaisyhteiskunta
+50: branchLoc(main, 600) # MK Ls Kirja
+59: branchLoc(main, 600) # # MK Tie LS
+62: branchLoc(main, 600) # MK TIL Ls
+92: branchLoc(ylisto, 821) # YK FYS Lainattavat
+96: branchLoc(ylisto, 821) # YK BIO Lainattavat
+88: branchLoc(ylisto, 821) # YK KEM Lainattavat
+241: branchLoc(ylisto, 821) # YK Uusiutuva energia
+85: branchLoc(ylisto, 800) # YK LS Kirja
+87: branchLoc(ylisto, 800) # YK KEM LsKirja
+91: branchLoc(ylisto, 800) # YK FYS LsKirja
+214: branchLoc(ylisto, 903) # YK BIO LsKirja
+193: branchLoc(main, 5558, KONVERSIO) # Testikokoelma3
+108: branchLoc(main, 1404, KONVERSIO) # Historia Fredrikson
+42: branchLoc(main, 405, KONVERSIO) # Frankofonia Kanavuori
+199: branchLoc(main, 1820, KONVERSIO) # Hungarologia gradut
+253: branchLoc(main, 1401, KONVERSIO) # TAIH Gradu
+90: branchLoc(main, 851, KONVERSIO) # YK KEM Lehdet
+124: branchLoc(main, 2300, KONVERSIO) # Kielikeskus lehdet
+213: branchLoc(main, 902, KONVERSIO) # Ambiotica BIO Lainattavat 
+219: branchLoc(main, 8000, KONVERSIO) # Poistettu kokoelmista
+23: branchLoc(main, 129, KONVERSIO) # P Mikromuoto var
+71: branchLoc(main, 615, KONVERSIO) # MK TIE Gradu
+194: branchLoc(main, 614, KONVERSIO) # Tietotekn gradut
+244: branchLoc(main, 504, KONVERSIO) # Liikunnan gradut 2010-
+236: branchLoc(main, 1830, KONVERSIO) # Kirjallisuus gradut
+89: branchLoc(main, 812, KONVERSIO) # YK Gradut
+196: branchLoc(main, 1300, KONVERSIO) # Rehtori-insituutti gradut
+
 
 	
 _DEFAULT_: branchLoc(main, KONVERSIO, ERROR, ERROR) #By default, print a warning and use defaults )
