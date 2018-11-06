@@ -51,29 +51,3 @@
 75: LAINA14 # kokkola kurssikirja 14 vrk
 76: LAINA0 # hungarologia odottaa siirtokäsittelyä
 77: LAINA0 # tietotekniikan gradut laitoksella
-
-
-
-3702 item_type_id=19 bib ei löydy finnasta
- 185 item_type_id=20 Liikunnan oppimiskeskus gradu
-1084 item_type_id=24 Matematiikan käsikirjasto gradu
-4148 item_type_id=35 Ylistönlinneet lainattava opinnäyte
-1722 item_type_id=42 Kartta (ilman nidetietoja)
-  74 item_type_id=44 KTL tutkimuslaitos laina-aika 29 VRK
-  16 item_type_id=45 historia Kanavuori etävarasto toistaiseksi ei käytössä
-5737 item_type_id=49 Musica ei kotilainattavat
- 305 item_type_id=50 Musica laina-aika 28vrk
-   4 item_type_id=53 taidehistoria gradu kanavuori etävarasto toistaiseksi ei käytössä
-5530 item_type_id=58 oppio ei kotilainattava kirja
-1318 item_type_id=63 kokkola ei kotilainattava
-8156 item_type_id=64 kokkola 14 vrk lainattava
-  24 item_type_id=66 ruusupuisto ktl ei kotilainattava
-   9 item_type_id=73 rehtori-instituutin opinnäytteet
-2386 item_type_id=75 kokkola kurssikirja 14vrk lainattava
-   4 item_type_id=76 hungarologia odottaa siirtokäsittelyä
- 498 item_type_id=77 ei kotilainattavat tietotekniikan gradut laitoksella
-
-
-# If you have mappings such as these, one should carefully consider to instead use item type as a
-# description of the Item's external appearance. Koha has many levels to organize and categorize items
-# and their respective circulation rules
