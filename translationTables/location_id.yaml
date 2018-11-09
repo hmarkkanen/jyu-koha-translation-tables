@@ -434,7 +434,7 @@
 +601: ref(51)
 57: branchLoc(mattila, 601) # 605 MK MAT
 +605: ref(57)
-60: branchLoc(mattila 601) # 606 MK TIE
+60: branchLoc(mattila, 601) # 606 MK TIE
 +606: ref(60)
 63: branchLoc(mattila, 601) # 607 MK TIL
 +607: ref(63)
