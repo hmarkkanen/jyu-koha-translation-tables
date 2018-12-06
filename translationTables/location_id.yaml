@@ -430,7 +430,7 @@
 +2208: ref(228)
 203: branchLoc(EI_KOHAAN, EI_KOHAAN) # Musiikin lts. Nuotit
 +2204: ref(203)
-51: branchLoc(mattila, 601) # MK Lainattavat
+51: branchLoc(mattila, 601) # MK Lainattavat kirjat
 +601: ref(51)
 57: branchLoc(mattila, 601) # 605 MK MAT
 +605: ref(57)
@@ -446,7 +446,7 @@
 +616: ref(59)
 62: branchLoc(mattila, 600) # MK TIL Ls
 +617: ref(62)
-92: branchLoc(ylisto, 821) # YK Lainattavat
+92: branchLoc(ylisto, 821) # YK Lainattavat kirjat
 +821: ref(92)
 96: branchLoc(ylisto, 821) # YK BIO Lainattavat
 +901: ref(96)
