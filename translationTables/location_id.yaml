@@ -350,11 +350,11 @@
 +7000: ref(145)
 200: branchLoc(main, 303) #P Lehdet Tupa
 +303: ref(200)
-211: branchLoc(kanavuorsi, 1210, KONVERSIO) #P Fennica numerus 2010-
+211: branchLoc(kanavuori, 1210, KONVERSIO) #P Fennica numerus 2010-
 +1210: ref(211)
 215: branchLoc(kanavuori, 1211, KONVERSIO) #P Varhaisfennica Arkholvi
 +1211: ref(215)
-216: branchLoc(kanavuoris, 1020, KONVERSIO) #P Varhaiskirjallisuus
+216: branchLoc(kanavuori, 1020, KONVERSIO) #P Varhaiskirjallisuus
 +1020: ref(216)
 218: branchLoc(main, 192) #Ellibs
 +192: ref(218)
