@@ -310,21 +310,21 @@
 +112: ref(14)
 15: branchLoc(main, 113) #P Kaunok. 2.krs
 +113: ref(15)
-16: branchLoc(main, 114) #P Vapaakappale Xa tabloid
+16: branchLoc(kanavuori, 114, KONVERSIO) #P Vapaakappale Xa tabloid
 +114: ref(16)
 17: branchLoc(main, 115) #P Lyhytlainakurssikirjat
 +115: ref(17)
-18: branchLoc(main, 117) #P Yleiskok Varastokirjat
+18: branchLoc(kanavuori, 117, KONVERSIO) #P Yleiskok Varastokirjat
 +117: ref(18)
-19: branchLoc(main, 128) #P Yleiskok. Käsik. var
+19: branchLoc(kanavuori, 128, KONVERSIO) #P Yleiskok. Käsik. var
 +128: ref(19)
-21: branchLoc(main, 119) #P Yleiskok Varastolehdet
+21: branchLoc(kanavuori, 119, KONVERSIO) #P Yleiskok Varastolehdet
 +119: ref(21)
-22: branchLoc(main, 120) #P Pihkalan kokoelma
+22: branchLoc(kanavuori, 120, KONVERSIO) #P Pihkalan kokoelma
 +120: ref(22)
-24: branchLoc(main, 121) #P Vapaakappalekokoelma
+24: branchLoc(kanavuori, 121, KONVERSIO) #P Vapaakappalekokoelma
 +121: ref(24)
-25: branchLoc(main, 122) #P Fennica piennumerus
+25: branchLoc(kanavuori, 122, KONVERSIO) #P Fennica piennumerus
 +122: ref(25)
 32: branchLoc(main, 190) #Internet-yhteys
 +190: ref(32)
@@ -350,17 +350,17 @@
 +7000: ref(145)
 200: branchLoc(main, 303) #P Lehdet Tupa
 +303: ref(200)
-211: branchLoc(main, 1210) #P Fennica numerus 2010-
+211: branchLoc(kanavuorsi, 1210, KONVERSIO) #P Fennica numerus 2010-
 +1210: ref(211)
-215: branchLoc(main, 1211) #P Varhaisfennica Arkholvi
+215: branchLoc(kanavuori, 1211, KONVERSIO) #P Varhaisfennica Arkholvi
 +1211: ref(215)
-216: branchLoc(main, 1020) #P Varhaiskirjallisuus
+216: branchLoc(kanavuoris, 1020, KONVERSIO) #P Varhaiskirjallisuus
 +1020: ref(216)
 218: branchLoc(main, 192) #Ellibs
 +192: ref(218)
 222: branchLoc(main, 116) #P KäsikKurssik
 +116: ref(222)
-251: branchLoc(main, 1212) #P Arkkiveisut
+251: branchLoc(kanavuori, 1212, KONVERSIO) #P Arkkiveisut
 +1212: ref(251)
 254: branchLoc(main, 9999) #Säilytyspaikkahuone 302
 +9999: ref(254)
